@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    border-bottom: 2px solid skyblue;
+}
+
+
+.navbar a{
+    text-decoration:none;
+    font-size:25px;
+}
+#navbar-list {
+    font-size:20px;
+    cursor: pointer;
+}
+
+#navbar-list .current{
+    color:skyblue;
+    border-bottom:2px solid skyblue;
+}
+.primary-text{
+    color:skyblue;
+}
+#showcase{
+	background:url("./homework-learning-macbook-pro-7354.jpg")no-repeat center center;
+    background-position: center;
+    height: 500px;
+    background-size:cover;
+    border-bottom: 2px solid skyblue;
+}
+.jumbotron{
+	color:white;
+    border-radius:50px;
+    text-align: center;
+    opacity: 0.6;
+}
+@media(max-width:600px){
+    #showcase .showcase-content{
+        
+        width:400px;
+    }
+}
+#main-footer{
+    border-top:2px solid skyblue;
+    margin-bottom: 8px;
+    font-size: 20px;
+    letter-spacing: 5px;;
+}
+#main-footer a{
+    text-decoration: none;
+    color:skyblue;
+    font-size: 30px;
+    margin-top:10px;
+}
+@media(max-width:320px){
+    #main-footer{
+        font-size:10px;
+        font-weight: 500;
+    }
+}
